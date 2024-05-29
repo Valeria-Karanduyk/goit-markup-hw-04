@@ -31,6 +31,9 @@ margin: 0 auto;
 
 .header{
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -81,6 +84,7 @@ text-decoration: none;
 padding: 24px  0;
 display: block;
 position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link-box{
@@ -116,6 +120,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
@@ -163,6 +168,7 @@ margin-bottom: 48px;
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover,
@@ -239,7 +245,7 @@ text-decoration: none;
 }
  /*  Team */
  .team-container{
-padding: 32px 16px;
+padding: 32px 0;
  }
 
  .team-box{
