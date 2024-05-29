@@ -323,9 +323,10 @@ margin-bottom: 8px;
     fill: #f4f4fd;
  }
 
- .team-link :hover, .team-link :focus{
+ .team-item-icon :hover, .team-item-icon :focus{
     background-color: #404bbf;
  }
+
 
  /* Portfolio */
  .portfolio-container{
@@ -506,6 +507,6 @@ gap: 16px;
     fill: #f4f4fd;
 }
 
-.footer-link :hover, .footer-link :focus{
+.footer-item :hover, .footer-item :focus{
     background-color: #31d0aa;
 }
